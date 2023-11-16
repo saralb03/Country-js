@@ -1,0 +1,98 @@
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyjJIUQAzd4QumXtpdLD5FV3L2FyN-jemqzA&usqp=CAU");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #343a40;
+  color: white;
+}
+
+.navbar {
+  background-color: #007bff !important;
+}
+
+.myCard {
+  cursor: pointer;
+  min-height: 400px;
+  font-family: "Open Sans", sans-serif;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.myCard:hover {
+  transform: scale(1.05);
+}
+
+.myCardImg {
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.myCardText {
+  font-size: large;
+}
+
+.card-header {
+  background-color: #007bff;
+  color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+.Mcard-body {
+  border-radius: 0 0 10px 10px;
+}
+
+.card-text {
+  color: #495057;
+}
+
+.restCardBody {
+  padding: 20px;
+}
+
+.Mymap {
+  height: 250px;
+  border-radius: 0 0 10px 10px;
+}
+
+.btn-light {
+  background-color: #f8f9fa;
+  color: #007bff;
+  border: 1px solid #007bff;
+}
+
+.btn-light:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+#id_load {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.spinner-border {
+  color: #007bff;
+}
+
+.btn-outline-primary {
+  color: #fff;
+  border-color: #011020;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #0056b3;
+  border-color: #011020;
+}
+
